@@ -1,3 +1,9 @@
+---
+title: Optical Photons
+draft: false
+tags:
+---
+
 In Geant4, an optical photon is a photon which has $\lambda>>$ atomic spacing. They model the wave-like nature of EM radiation, and they are not the same as a gamma, with no smooth transition existing between the two!
 
 When defined by hand, optical photons need to be given a spin vector, which will describe their polarization. Otherwise, if the correct [[Physics Lists]] are implemented, they can stem from Cerenkov radiation, scintillation processes of transition radiation. Although Geant4 will keep track of the polarization, it does not keep track of overall phase, so it cannot simulate interference.

@@ -1,3 +1,9 @@
+---
+title: Geant4 Installation Guide
+draft: false
+tags:
+---
+
 Before you start developing applications with Geant4, the first problem that you might encounter is how to install Geant4 in your system. There are multiple methods and ways to use Geant4, but here I will describe the steps to get Geant4 running in the 2 different methods that I have experience with.
 #### Option 1. Build from source on Linux:
 Before you begin, you should ensure that your system fulfills the [system and software prerequisites](https://geant4-userdoc.web.cern.ch/UsersGuides/InstallationGuide/html/gettingstarted.html#softwarerequirements). Then you should obtain your desired version of Geant4 from the [downloads page](https://geant4.web.cern.ch/download/) (you can search for older versions here. Then download the .tar.gz file of your selected version (in this case 10.7.4), and unpack it in a directory. In this case, we unpack it in the `/sofware` subdirectory, then the source code is in a subdirectory:

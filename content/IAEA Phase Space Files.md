@@ -1,3 +1,9 @@
+---
+title: IAEA Phase Space Files
+draft: false
+tags:
+---
+
 ==Note: IAEA phsp files are currently not working with Geant4==
 
 Phase Space files contain detailed information of particles passing through a volume in Geant4, including things such as the momentum, energy, position or type of the particles. These files can be very useful in speeding up a simulation, or ensuring reproducibility of experiments. We can for example simulate the proton beam interacting with a water phantom, and subsequently use the phase space file of the gammas leaving the phantom as a gamma source for the next simulation, saving time and resources. 

@@ -1,3 +1,9 @@
+---
+title: Geant4 Material Modelling
+draft: false
+tags:
+---
+
 Geant4 models materials in 3 different ways:
 - **G4Isotope**: Describes the properties of the atoms (Z,N and A) with unique name and index. 
 - **G4Element**: Describe the properties of elements (effective Z, effective N, effective A, # of isotopes, etc.) with unique name, symbol and index. 

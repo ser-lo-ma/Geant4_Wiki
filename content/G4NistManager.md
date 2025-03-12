@@ -1,3 +1,9 @@
+---
+title: G4NistManager
+draft: false
+tags:
+---
+
 G4NistManger is a way to interact with the NIST material database.
 #### Elements and isotopes:
 This database contains data of more than 3000 isotopes. This includes the elements with Z 1 to 408 and their natural isotope abundance, which can be fetched with either their symbol or atomic number Z. For example:

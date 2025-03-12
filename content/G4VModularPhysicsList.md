@@ -1,3 +1,9 @@
+---
+title: G4VModularPhysicsList
+draft: false
+tags:
+---
+
 Derived from [[G4VUserPhysicsList]], it extends it by adding several methods, some of these are:
 - RegisterPhysics(G4VPhysicsConstructor * )
 - GetPhysics(…)

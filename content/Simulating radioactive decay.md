@@ -1,6 +1,12 @@
+---
+title: Simulating radioactive decay
+draft: false
+tags: ""
+---
+
 Simulating radioactive decay in Geant4 is not trivial, and although there is no way to create a material that decays with time, a similar effect can be obtained in multiple ways. Both methods use [[G4GeneralParticleSource]]. 
 #### With G4RadioactiveDecayPhysics:
-Firstly, you need to ensure that your [[Physics Lists]] contains G4RadioactiveDecayPhysics. It might be worth using the registerPhysics method to ensure that it is contained. It is important to note that the Physics lists are initialized after the [[G4VPrimaryGenerator]], so the generator must be initialized with no particle, and then the process for defining the ion must be done in `GeneratePrimaries`. 
+Firstly, you need to ensure that your [[Physics Lists]] contains G4RadioactiveDecayPhysics. It might be worth using the registerPhysics method to ensure that it is contained. It is important to note that [[Physics lists]] are initialized after the [[G4VPrimaryGenerator]], so the generator must be initialized with no particle, and then the process for defining the ion must be done in `GeneratePrimaries`. 
 
 Below is included a snippet of code demonstrating how this is done for a Cobalt source:
 

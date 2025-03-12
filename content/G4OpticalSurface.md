@@ -1,3 +1,9 @@
+---
+title: G4OpticalSurface
+draft: true
+tags:
+---
+
 ==INCOMPLETE==
 
 When dealing with [[Optical photons]], we have the possibility to define optical surfaces, which will define the processes occurring at the boundary of a volume. The boundary processes are called at the end of each step, but never limit the step length, it only occurs if the step is meant to start in one volume, but finish in the other one. Furthermore, because Geant4 simulated “particle-like” behavior, there is no possible “splitting” of the tracks, ie. Photons are either reflected or refracted, but both cannot happen at the same time. **When no optical surface is defined, reflection is simulated as purely geometrical;** and when we create an optical surface with no parameters, it works with diffusive reflection. The surfaces modeling these behaviors can be defined in two ways:

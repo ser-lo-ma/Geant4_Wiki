@@ -1,3 +1,9 @@
+---
+title: Prepackaged physics list
+draft: false
+tags:
+---
+
 Geant4 provides a wide variety of “ready-to—use” pre-packaged physics lists, prepared for different use cases. These can simplify the process of creating a simulation, however, not all of them contain every single physics process, not all of them are kept up to date and, in general, the user is responsible for selecting the correct one, as having unnecessary physics processes or missing key interactions can mess the results or reduce the speed of the simulation. All prepackaged physics lists are of the type [[G4VModularPhysicsList]], and physics can be extended or replaced with their methods.
 
 The name of most physics lists follows the convention “name of hadronic inelastic physics constructor” followed by “name of em option”. The lists not following the naming convention are: QBBC, Shielding, LBE and NuBeam. Some of the others include:

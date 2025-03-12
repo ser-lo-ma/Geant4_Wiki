@@ -1,3 +1,9 @@
+---
+title: Physics Lists
+draft: false
+tags:
+---
+
 A physics list is an object responsible of defining how our simulation will behave and what it will take into account. That is specifying all the particles that will be used in the simulation and the processes assigned to each individual particle. It is one of the 3 mandatory objects needed for the [[G4RunManager]]. It can be created modularly by choosing and specifying the particles and processes to be used, or one can select a prebuilt in physics list.
 
 ### What physics are included?

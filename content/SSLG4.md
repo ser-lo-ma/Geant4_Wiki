@@ -1,3 +1,9 @@
+---
+title: SSLG4
+draft: false
+tags:
+---
+
 SSLG4 is a "Scintillator Simulation Library for Geant4". It depends on [[OPSim]], and aims to enhance efficiency and accelerate progress in optical simulations within the Geant4 framework by simplifying scintillator handling and providing a rich repository of scintillators.
 #### How to install:
 
