@@ -1,7 +1,7 @@
 ---
 title: "Scoring Mesh"
 draft: false
-tags: ""
+tags: 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in tincidunt erat, ut egestas est. Duis dignissim consequat aliquet. Mauris fermentum est vel hendrerit sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In condimentum ultrices eros ut imperdiet.

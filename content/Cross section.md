@@ -1,7 +1,7 @@
 ---
 title: "Cross section"
 draft: false
-tags: ""
+tags:
 ---
 
 

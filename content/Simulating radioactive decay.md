@@ -1,7 +1,7 @@
 ---
 title: Simulating radioactive decay
 draft: false
-tags: ""
+tags: 
 ---
 
 Simulating radioactive decay in Geant4 is not trivial, and although there is no way to create a material that decays with time, a similar effect can be obtained in multiple ways. Both methods use [[G4GeneralParticleSource]]. 
